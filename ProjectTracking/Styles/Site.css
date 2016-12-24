@@ -1,0 +1,79 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body   
+{
+    background: #ffffff;
+    font-size: 1rem;
+    font-family: 'HelveticaNeue Light', 'Roboto Light', 'Slate Light', 'Segoe WP', NokiaPureTextLight, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #555555;
+}
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+.header {
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-width: 0 0 1px;
+    background-color: #2a2d33;
+    position: relative;
+    margin:20px 0 20px 0;
+}
+.header .title {
+    margin: 0;
+    padding: 0;
+    font-size: 1.4em;
+    line-height: 3rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.header .primary {
+    position: absolute;
+    top: .5rem;
+    left: .75rem;
+}
+
+.header .button {
+    padding: .3333em;
+}
+.icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.content {
+    -webkit-flex: 1;
+    flex: 1;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    margin:40px 0 20px 0;
+}
